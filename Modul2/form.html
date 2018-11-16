@@ -1,0 +1,73 @@
+<html>
+<head><title>Form</title></head>
+<body>
+<h2 align ='center'><font color = '#9966FF'>Free Registration</font></h2>
+<form action='proses.php' method ='post' name ='form'>
+<table width = '68%' border ='0' align ='center' cellpadding ='0'>
+	<tr>
+		<td width='15%'>Nama</td>
+		<td width='2%'>:</td>
+		<td width='83%'><input name='txtnama' type='text' id='txtnama'></td>
+	</tr>
+	<tr>
+		<td> tgl Lahir </td>
+		<td>:</td>
+		<td><input name='txtTgl' type ='text' id='txtTgl' size ='4' maxlength='2'>/
+		<input name='txtBulan' type ='text' id='txtBulan' size ='4' maxlength='2'>/
+		<input name='txtTahun' type ='text' id='txtTahun' size ='8' maxlength='4'></td>
+	</tr>
+	<tr>
+		<td>Alamat</td>
+		<td>&nbsp;</td>
+		<td><textarea name='txtAlamat' cols='40' rows='2' iod='txtAlamat'></textarea></td>
+	</tr>
+	<tr>
+		<td>Kota</td>
+		<td>:</td>
+		<td><input name='txtKota' type='text' id='txtKota'></td>
+	</tr>
+	<tr>
+		<td>pekerjaan </td>
+		<td>:</td>
+		<td><select name='cbojob' id='cbojob'>
+			<option>Tani</option>
+			<option>Nelayan</option>
+			<option>Karyawan</option>
+		</select></td>
+	</tr>
+	<tr>
+		<td>Jenis kelamin </td>
+		<td>:</td>
+		<td><input name='radJK' type='radio' value='1' checked> Laki-Laki
+		<inpiut type='radio' name='radJK' value='2'> perempuan </td>
+	</tr>
+	<tr>
+		<td>Hobby</td>
+		<td>:</td>
+		<td> <input name='cekreading' type='checkbox' id='cekreading' value='1'> Reading </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td> <input name='ceksport' type='checkbox' id='ceksport' value='2'> Sport </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td> <input name='ceksing' type='checkbox' id='ceksing' value='3'> Singing </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td> <input name='cektravel' type='checkbox' id='cektravel' value='4'> Traveling </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td> <input name='buttonkirim' type='submit' id='buttonkirim' value='kirim'>
+		<input name='buttoncancel' type='reset' id='buttoncancel' value='cancel'></td>
+	</tr>
+	</table>
+</form>			
+</body>
+</html>
